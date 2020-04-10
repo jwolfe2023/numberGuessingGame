@@ -1,8 +1,5 @@
 package lickingheights.com;
 
-import com.sun.deploy.security.SelectableSecurityManager;
-import sun.security.x509.OtherName;
-
 import java.util.Scanner;
 
 public class Main {
@@ -31,7 +28,7 @@ public class Main {
 
         String input;
         do {
-//            logicLoop();
+            logicLoop();
 
                 a++;
 
@@ -66,7 +63,7 @@ public class Main {
 
         keyboard = new Scanner(System.in);
 
-        int randomNumber = ((int) (Math.random() * 10));
+        int randomNumber = ((int) (Math.random() * 100));
 
         int inputNumber;
 
